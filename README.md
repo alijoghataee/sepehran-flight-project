@@ -46,6 +46,9 @@ python manage.py setup_data
 python manage.py runserver
 ```
 
+now you can access to project on port 8000 on localhost
+
+
 ## StartUp Using Docker
 
 ##### SetUp the [.env](.env) file based on [.env.example](.env.example)
@@ -63,6 +66,9 @@ docker compose up -d
 docker exec -it flight bash
 python manage.py setup_data
 ```
+
+now you can access to project on port 8000 on localhost
+
 
 ## Run Tests
 
