@@ -40,6 +40,12 @@ python manage.py migrate
 python manage.py setup_data
 ```
 
+##### Start Server on development
+
+```shell
+python manage.py runserver
+```
+
 ## StartUp Using Docker
 
 ##### SetUp the [.env](.env) file based on [.env.example](.env.example)
@@ -56,12 +62,6 @@ docker compose up -d
 ```shell
 docker exec -it flight bash
 python manage.py setup_data
-```
-
-##### Start Server on development
-
-```shell
-python manage.py runserver
 ```
 
 ## Run Tests
