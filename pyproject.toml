@@ -1,0 +1,18 @@
+[project]
+name = "flightes-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2.8",
+    "django-filter>=25.2",
+    "djangorestframework>=3.16.1",
+    "djangorestframework-simplejwt>=5.5.1",
+    "drf-spectacular>=0.29.0",
+    "gunicorn>=23.0.0",
+    "pydantic-settings>=2.12.0",
+    "pytest>=9.0.1",
+    "pytest-cov>=7.0.0",
+    "pytest-django>=4.11.1",
+]

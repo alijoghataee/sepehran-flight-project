@@ -1,0 +1,7 @@
+__pycache__/
+.venv
+.idea
+.coverage
+*.sqlite3
+.env
+static
